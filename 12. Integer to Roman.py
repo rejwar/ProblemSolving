@@ -8,7 +8,7 @@ class Solution:
         
         res = []
 
-        for value, symbol in value_symbols:
+        for value, symbol in value_symbols: 
             if num == 0:
                 break
             count = num // value
